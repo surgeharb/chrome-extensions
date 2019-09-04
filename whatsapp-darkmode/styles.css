@@ -1100,100 +1100,97 @@ span svg > path[fill="#00BFA5"] {
 
 /* Compact mode. */
 /* Reset min app height/width reset. */
-  @media screen and (max-height: 500px) { #app > div > .app { min-height: auto; }}
-  @media screen and (max-width: 648px) { #app > div > .app { min-width: auto; }}
-  /* Custom compact mode. */
-  @media screen and (max-width:720px) {
-    /* .app > div div:hover { box-shadow: 0 0 0 2px inset crimson !important; } /**/
-    /* Fix header width hiding icons. */
-    #side > header { min-width: 240px; }
-    /* Hide notifications. */
-    #side > header + span { display: none }
-    /* Search bar width. */
-    .ZP8RM:not(._19OGD) label { padding: 0px; }
-    /* ? Reset panes. */
-    .three > div:nth-child(3),
-    .three > div:nth-child(2) > div:nth-child(1),
-    .two > div:nth-child(2) > div:nth-child(1),
-    .two > div:nth-child(3) {
-      flex: 0 0 75px !important; }
-    /* Settings/Starred/Etc. */
-    .two > div:nth-child(2) > div._3kF8H {
-      transition: 0.3s ease-in-out !important;
-      flex: 0 0 75px !important; }
-    .two > div:nth-child(2) > div._3kF8H:hover {
-      flex: 0 0 30% !important; }
-    /* Upload preview. */
-    .two > div:nth-child(2) > div._2rI9W {
-      flex: 0 0 calc(100% - 75px) !important; }
-    /* Don't expand contacts if there are 3 panes. */
-    .three > div:nth-child(3):hover {
-      flex: 0 0 75px !important; }
-    /* Expand contacts. */
-    .two > div:nth-child(3) {
-      min-width: 1px !important;
-      transition: 0.3s ease-in-out !important;
-      transition-delay: 0.2s !important; }
-    .two > div:nth-child(3):hover {
-      min-width: 400px !important;
-      transition-delay: var(--hover-delay) !important;
-      flex: 0 0 30% !important; }
-    /* Pane -> Chat. */
-    .three ._2rI9W { flex: 1 1 auto !important; }
-    /* Pane -> Info. */
-    .three ._1C9rS {
-      max-width: 400px;
-      width: calc(100% - 76px); }
-    /* ? Hack for positioning unread counter. */
-    ._2UaNq .xD91K {
-      z-index: 199 !important;
-      display: flex !important;
-      flex-direction: row-reverse !important; }
-    /* ? Unread counter. */
-    ._2UaNq .xD91K ._1ZMSM .P6z4j {
-      z-index: 999 !important;
-      line-height: 23px !important;
-      margin: 7px 00px 0px -60px !important;
-      transition: 0.15s ease !important;
-      box-shadow: 0 0 0 3px var(--darker) !important; }
-    /* On event. */
-    #side ._2UaNq._3mMX1 .xD91K .P6z4j, #side ._2UaNq:hover .xD91K .P6z4j {
-      /* color: var(--accent) !important;
-      background-color: var(--darker) !important; */
-      box-shadow: 0 0 0 3px var(--dark) !important; }
-    /* Reset text position. */
-    ._2UaNq .xD91K span[dir] { margin-left: 10px; }
-    /* Remove icons we don't need. */
-    #side ._1ZMSM > span:not(.P6z4j) { display: none !important }
-    /* Remove overflow for unread messages counter. */
-    #side ._0LqQ {
-      margin-left: -10px !important;
-      overflow: unset !important }
-    /* Message dropdown thing; fixes ticks jumping left and right. */
-    #side ._0LqQ > span:last-child:not(._17TaE) { display: none !important }
-    /* ? Hack for positioning message status. */
-    ._3VIru {
-      z-index: 101;
-      position: absolute;
-      margin: 5px 0 0 -20px;
-      border-radius: 50%;
-      transition: 0.15s ease !important;
-      background-color: var(--dark);
-      box-shadow: 0 0 0 3px var(--darker); }
-    /* Make SVG smaller. */
-    ._3VIru > span > svg {
-      padding: 2px;
-      height: 14px !important;
-      width: 14px !important; }
-    /* Background on event. */
-    ._2UaNq:hover ._3VIru, ._2UaNq._3mMX1 ._3VIru {
-      background-color: var(--darker);
-      box-shadow: 0 0 0 3px var(--dark) !important; }
-  }
+@media screen and (max-height: 500px) { #app > div > .app { min-height: auto; }}
+@media screen and (max-width: 648px) { #app > div > .app { min-width: auto; }}
+/* Custom compact mode. */
+@media screen and (max-width:720px) {
+  /* .app > div div:hover { box-shadow: 0 0 0 2px inset crimson !important; } /**/
+  /* Fix header width hiding icons. */
+  #side > header { min-width: 240px; }
+  /* Hide notifications. */
+  #side > header + span { display: none }
+  /* Search bar width. */
+  .ZP8RM:not(._19OGD) label { padding: 0px; }
+  /* ? Reset panes. */
+  .three > div:nth-child(3),
+  .three > div:nth-child(2) > div:nth-child(1),
+  .two > div:nth-child(2) > div:nth-child(1),
+  .two > div:nth-child(3) {
+    flex: 0 0 75px !important; }
+  /* Settings/Starred/Etc. */
+  .two > div:nth-child(2) > div._3kF8H {
+    transition: 0.3s ease-in-out !important;
+    flex: 0 0 75px !important; }
+  .two > div:nth-child(2) > div._3kF8H:hover {
+    flex: 0 0 30% !important; }
+  /* Upload preview. */
+  .two > div:nth-child(2) > div._2rI9W {
+    flex: 0 0 calc(100% - 75px) !important; }
+  /* Don't expand contacts if there are 3 panes. */
+  .three > div:nth-child(3):hover {
+    flex: 0 0 75px !important; }
+  /* Expand contacts. */
+  .two > div:nth-child(3) {
+    min-width: 1px !important;
+    transition: 0.3s ease-in-out !important;
+    transition-delay: 0.2s !important; }
+  .two > div:nth-child(3):hover {
+    min-width: 400px !important;
+    transition-delay: var(--hover-delay) !important;
+    flex: 0 0 30% !important; }
+  /* Pane -> Chat. */
+  .three ._2rI9W { flex: 1 1 auto !important; }
+  /* Pane -> Info. */
+  .three ._1C9rS {
+    max-width: 400px;
+    width: calc(100% - 76px); }
+  /* ? Hack for positioning unread counter. */
+  ._2UaNq .xD91K {
+    z-index: 199 !important;
+    display: flex !important;
+    flex-direction: row-reverse !important; }
+  /* ? Unread counter. */
+  ._2UaNq .xD91K ._1ZMSM .P6z4j {
+    z-index: 999 !important;
+    line-height: 23px !important;
+    margin: 7px 00px 0px -60px !important;
+    transition: 0.15s ease !important;
+    box-shadow: 0 0 0 3px var(--darker) !important; }
+  /* On event. */
+  #side ._2UaNq._3mMX1 .xD91K .P6z4j, #side ._2UaNq:hover .xD91K .P6z4j {
+    /* color: var(--accent) !important;
+    background-color: var(--darker) !important; */
+    box-shadow: 0 0 0 3px var(--dark) !important; }
+  /* Reset text position. */
+  ._2UaNq .xD91K span[dir] { margin-left: 10px; }
+  /* Remove icons we don't need. */
+  #side ._1ZMSM > span:not(.P6z4j) { display: none !important }
+  /* Remove overflow for unread messages counter. */
+  #side ._0LqQ {
+    margin-left: -10px !important;
+    overflow: unset !important }
+  /* Message dropdown thing; fixes ticks jumping left and right. */
+  #side ._0LqQ > span:last-child:not(._17TaE) { display: none !important }
+  /* ? Hack for positioning message status. */
+  ._3VIru {
+    z-index: 101;
+    position: absolute;
+    margin: 5px 0 0 -20px;
+    border-radius: 50%;
+    transition: 0.15s ease !important;
+    background-color: var(--dark);
+    box-shadow: 0 0 0 3px var(--darker); }
+  /* Make SVG smaller. */
+  ._3VIru > span > svg {
+    padding: 2px;
+    height: 14px !important;
+    width: 14px !important; }
+  /* Background on event. */
+  ._2UaNq:hover ._3VIru, ._2UaNq._3mMX1 ._3VIru {
+    background-color: var(--darker);
+    box-shadow: 0 0 0 3px var(--dark) !important; }
+}
 
-/* Custom CSS rules. */
-#test::after { content: "paste all your custom css here!" !important; }
-
-._0LqQ, ._3HwRC {
+._0LqQ, ._3HwRC ._3H4MS {
   color: #fff !important;
 }
