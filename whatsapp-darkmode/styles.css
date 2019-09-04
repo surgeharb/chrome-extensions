@@ -1192,5 +1192,5 @@ span svg > path[fill="#00BFA5"] {
 }
 
 ._0LqQ, ._3HwRC, ._3H4MS {
-  color: #fff !important;
+  color: var(--light) !important;
 }
