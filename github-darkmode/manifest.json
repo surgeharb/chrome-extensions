@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Best GitHub Dark Mode",
+  "version": "1.0.0",
+  "description": "Dark Mode Extension for GitHub",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://github.com/*"]
+  }]
+
+}
