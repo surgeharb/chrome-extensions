@@ -8,6 +8,12 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "matches": ["https://github.com/*"]
-  }]
+  }],
+
+  "icons": { 
+    "32": "icons/GitHub-Mark-32px.png",
+    "64": "icons/GitHub-Mark-64px.png",
+    "128": "icons/GitHub-Mark-120px-plus.png"
+  }
 
 }
