@@ -225,8 +225,8 @@
     border-color: #343434 !important;
   }
   /* auto-generated rule for "border: 1px #e1e4e8 solid" */
-  .border, .code-list .file-box, .ScreenshotCarousel, .conflict-resolver.loading,
-  .review-thread, .review-comment.is-comment-editing,
+  .border.border.border, .code-list .file-box, .ScreenshotCarousel,
+  .review-thread, .review-comment.is-comment-editing, .conflict-resolver.loading,
   .review-summary-form-wrapper, .org-sso .org-sso-panel, .data-table {
     border-color: #343434 !important;
   }
@@ -1492,19 +1492,19 @@ background-position: left top !important;
   .reaction-summary-item, .select-menu-divider, .featurette.border-top,
   .tile-block, .tile-bordered:not(:last-child), .showcase-page-header,
   .showcase-page-repo-list, .header-search-scope, .result-group a,
-  .signed-commit-badge, .signed-commit-header, .user-key-email, .border-top,
+  .signed-commit-badge, .signed-commit-header, .user-key-email,
   .pricing-card-cta, .shelf, .access-token, .about-menu, .oauth-border,
-  .reponav-item.selected, .file-header,
+  .reponav-item.selected, .file-header, .border-top.border-top.border-top,
   .reorderable-task-lists .markdown-body .task-list-item.hovered,
   .next-charge-box, .setup-info-module h2, .radio-label, .border, .border-top,
-  .border-right, .border-bottom, .border-left, .border-y, .pinned-repo-list-item,
-  .pinned-repo-filters, .orghead, .orghead .edit-org, .Box-body-row,
+  .border-right, .border-bottom.border-bottom.border-bottom, .border-left, .border-y, 
+  .pinned-repo-list-item, .pinned-repo-filters, .orghead, .orghead .edit-org,
   .discussion-item-deployed, .branch-action-body .merge-message,
-  .new-project-column, .confirm-removal-list-container,
+  .new-project-column, .confirm-removal-list-container, .Box-body-row,
   .confirm-removal-list-item, .user-profile-nav, .border-gray-light,
   .ajax-pagination-form .ajax-pagination-btn, .review-thread-reply,
   .feature-callout-octicon, .feature-callout,
-  .discussion-item + .discussion-item,
+  .discussion-item + .discussion-item, .UnderlineNav-item.selected,
   .discussion-item-review + .discussion-item, .libraries-jumbotron,
   .last-review-thread, .menu-item, .review-comment.is-comment-editing, .Box,
   .team-list-footer, .Box-header,
