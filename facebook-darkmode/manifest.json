@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Best Facebook Web Dark Mode",
+  "version": "1.0.0",
+  "description": "Dark Mode Extension for Facebook Web",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://facebook.com/*"]
+  }]
+
+}
