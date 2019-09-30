@@ -1194,3 +1194,7 @@ span svg > path[fill="#00BFA5"] {
 ._0LqQ, ._3HwRC, ._3H4MS {
   color: var(--light) !important;
 }
+
+html[dir] .message-in > div, html[dir] .message-out > div {
+  background-color: var(--darker) !important;
+}
